@@ -10,6 +10,3 @@ inputEl.addEventListener('input', (event) => {
     event.currentTarget.classList.remove("valid");
     event.currentTarget.classList.add("invalid");
 });
-
-
-console.log(lettersQuantity);

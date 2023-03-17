@@ -14,4 +14,3 @@ incBtn.addEventListener('click', () => {
     val += 1;
     counterValue.textContent = val;
 });
-console.log(counterValue.textContent);

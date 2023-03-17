@@ -16,6 +16,7 @@ const createBoxes = (amount) => {
 
 const destroyBoxes = () => {
   parentDivEl.innerHTML = "";
+  controlsEl.firstElementChild.value = '';
 }
 
 btnCreateEl.addEventListener('click', () => {
